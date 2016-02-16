@@ -1,6 +1,7 @@
 ---
 ironic_db_password: XXX
 bifrost_mysql_password: XXX
+keystone_rabbit_password: XXX
 neutron_rabbit_password: XXX
 nova_rabbit_password: XXX
 keystone_mysql_password: XXX
