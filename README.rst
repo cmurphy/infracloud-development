@@ -19,11 +19,11 @@ Create two disk images::
   export DIB_DEV_USER_PWDLESS_SUDO=yes
   export ELEMENTS_PATH=$HOME/infracloud-development/elements
   DIB_ROLE=controller disk-image-create -u ubuntu devuser system-config puppet \
-    smoke-test infracloud-static-net vm cloud-init-nocloud \
+    motd smoke-test infracloud-static-net vm cloud-init-nocloud \
     -o "/tmp/infracloud-controller.qcow2" --image-size 20 \
     -p git,vim,vlan,bridge-utils
   DIB_ROLE=compute disk-image-create -u ubuntu devuser system-config puppet \
-    infracloud-static-net vm cloud-init-nocloud \
+    motd infracloud-static-net vm cloud-init-nocloud \
     -o "/tmp/infracloud-compute.qcow2" --image-size 20 \
     -p git,vim,vlan,bridge-utils
 
