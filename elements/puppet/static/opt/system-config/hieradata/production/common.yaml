@@ -31,7 +31,7 @@ ssl_key_file_contents: |
   Wf3I/fiCT/xQoGws3k0CQEgMq/8WNK3c6BG4LviqP2++GNm9mwYvZIz+mDlnjHvR
   ZbKDbwWy2wYp2n/7WknIQS0o1CmcDXYAYgr4IPgLrfw=
   -----END RSA PRIVATE KEY-----
-ssl_cert_file_contents: |
+infracloud_hpuswest_ssl_cert_file_contents: |
   -----BEGIN CERTIFICATE-----
   MIICZTCCAc4CCQDF0vhjB9rjdTANBgkqhkiG9w0BAQsFADB3MQswCQYDVQQGEwJV
   UzETMBEGA1UECAwKU29tZS1TdGF0ZTEiMCAGA1UECgwZT3BlblN0YWNrIEluZnJh
