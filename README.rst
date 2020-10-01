@@ -29,7 +29,7 @@ Create two disk images::
 
 These images have static IP addresses and hostnames baked into them. This
 simulates the production environment for most purposes but avoids too much
-complexity setting up local networks.
+complexity  in setting up local networks.
 
 Define the network::
 
